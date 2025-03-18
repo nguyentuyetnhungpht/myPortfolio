@@ -1,15 +1,15 @@
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
     text-align: center;
 }
 header {
-    background: #333;
+    background: #1e1e1e;
     color: white;
     padding: 20px 0;
-    text-align: center;
 }
 .header-container {
     display: flex;
@@ -32,22 +32,44 @@ nav ul li a {
     font-weight: bold;
 }
 .hero {
-    background: #0073e6;
+    background: linear-gradient(to right, #0073e6, #005bb5);
     color: white;
-    padding: 50px 0;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .content-section {
     padding: 50px;
     background: white;
     margin: 20px auto;
     width: 80%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.skills-list li {
+    background: #0073e6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.project-card {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
 footer {
-    background: #333;
+    background: #1e1e1e;
     color: white;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     margin-top: 20px;
 }
